@@ -5,8 +5,7 @@ __author__ = 'yosefderay'
 
 class ConsoleInput(object):
 
-    @staticmethod
-    def get_point():
+    def get_point(self):
 
         guess_row = int(raw_input("Guess Row:")) - 1
         guess_col = int(raw_input("Guess Column:")) - 1
